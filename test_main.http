@@ -1,0 +1,23 @@
+# Test your FastAPI endpoints
+
+###
+POST http://127.0.0.1:8000/api/users
+accept: application/json
+Content-Type: application/json
+
+{
+  "username": "admin1",
+  "email": "admin1@example.com",
+  "password": "asdasfdsdf"
+}
+
+###
+
+# curl -X 'GET'
+#  'http://127.0.0.1:8000/api/users'
+#  -H 'accept: application/json'
+GET http://127.0.0.1:8000/api/users
+accept: application/json
+
+###
+
